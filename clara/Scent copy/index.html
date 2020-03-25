@@ -1,0 +1,722 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-PZ6RC66');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Libs CSS -->
+    <link rel="stylesheet" href="./assets/fonts/Feather/feather.css">
+    <link rel="stylesheet" href="./assets/libs/flickity/dist/flickity.min.css">
+    <link rel="stylesheet" href="./assets/libs/flickity-fade/flickity-fade.css">
+    <link rel="stylesheet" href="./assets/libs/aos/dist/aos.css">
+    <link rel="stylesheet" href="./assets/libs/jarallax/dist/jarallax.css">
+    <link rel="stylesheet" href="./assets/libs/highlightjs/styles/vs2015.css">
+    <link rel="stylesheet" href="./assets/libs/@fancyapps/fancybox/dist/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.11.2/css/duotone.css" integrity="sha384-tHth4ugEmPOZTBSN4Hi2oYiHY6vpxIL8clasFZidKyR6Gm34+U6wx6A9eZHqTs2W" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.11.2/css/fontawesome.css" integrity="sha384-bQakmC+XBF+eCf93fSR/57kAeX91i0BDyXyj8My8/e/3Bcno5zhEGM02xNvpXV+2" crossorigin="anonymous">
+
+    <!-- Map -->
+    <link href='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css' rel='stylesheet' />
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="./assets/css/theme.min.css">
+
+    <title>SCENT</title>
+
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PZ6RC66"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- MODALS
+    ================================================== -->
+    <!-- Signup: Horizontal INVESTOR  -->
+    <div class="modal fade" id="modalSignupInvestor" tabindex="-1" role="dialog" aria-labelledby="modalSignupHorizontalTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="card card-row">
+                    <div class="row no-gutters">
+                        <div class="col-12 col-md-6 bg-cover card-img-left" style = "background-image: url(./assets/img/house.png)">
+
+                            <!-- Image (placeholder) -->
+                            <img src="./assets/img/house.png" alt="..." class="img-fluid d-md-none invisible">
+
+                            <!-- Shape -->
+                            <div class="shape shape-right shape-fluid-y svg-shim text-white d-none d-md-block">
+                                <svg viewBox="0 0 112 690" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M116 0H51V172C76 384 0 517 0 517V690H116V0Z" fill="currentColor"/>
+                  </svg>
+                            </div>
+
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="card-body">
+
+                                <!-- Close -->
+                                <button type="button" class="modal-close close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                  </button>
+
+                                <!-- Heading -->
+                                <h2 class="mb-0 font-weight-bold text-center" id="modalSignupHorizontalTitle">
+                                    Get Started!
+                                </h2>
+
+                                <!-- Text -->
+                                <p class="mb-6 text-center text-muted">
+                                    Digitalize your housing in minutes.
+                                </p>
+
+                                <!-- Begin Mailchimp Signup Form -->
+                                <div id="mc_embed_signup">
+                                    <form action="/Users/puroha1/Desktop/contracts/web/index.html" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate mb-6" target="_blank" novalidate>
+                                        <div id="mc_embed_signup_scroll">
+
+                                            <div class="form-group">
+                                                <label for="mce-EMAIL" class="sr-only">Your Email</label>
+                                                <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL" placeholder="Your Email">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="mce-FNAME" class="sr-only">Full Name </label>
+                                                <input type="text" value="" name="FNAME" class="required form-control" id="mce-FNAME" placeholder="Full Name">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="mce-MMERGE2" class="sr-only">City</label>
+                                                <input type="text" value="" name="MMERGE2" class="form-control" id="mce-MMERGE2" placeholder="City">
+                                            </div>
+                                            <div id="mce-responses" class="clear">
+                                                <div class="response" id="mce-error-response" style="display:none"></div>
+                                                <div class="response" id="mce-success-response" style="display:none"></div>
+                                            </div>
+                                            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_82bdc603d82a59a4ae57a70bb_59ee071dc0" tabindex="-1" value=""></div>
+                                            <button class="btn btn-block btn-success" type="submit" id="mc-embedded-subscribe">
+                          View Properties
+                        </button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <!-- Text -->
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- / .row -->
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Signup: Horizontal UPLOADER  -->
+    <div class="modal fade" id="modalSignupUploader" tabindex="-1" role="dialog" aria-labelledby="modalSignupHorizontalTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="card card-row">
+                    <div class="row no-gutters">
+                        <div class="col-12 col-md-6 bg-cover card-img-left" style = "background-image: url(./assets/img/house.png)">
+
+                            <!-- Image (placeholder) -->
+                            <img src="./assets/img/house.png" alt="..." class="img-fluid d-md-none invisible">
+
+                            <!-- Shape -->
+                            <div class="shape shape-right shape-fluid-y svg-shim text-white d-none d-md-block">
+                                <svg viewBox="0 0 112 690" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M116 0H51V172C76 384 0 517 0 517V690H116V0Z" fill="currentColor"/>
+                  </svg>
+                            </div>
+
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="card-body">
+
+                                <!-- Close -->
+                                <button type="button" class="modal-close close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                  </button>
+
+                                <!-- Heading -->
+                                <h2 class="mb-0 font-weight-bold text-center" id="modalSignupHorizontalTitle">
+                                    Get Started!
+                                </h2>
+
+                                <!-- Text -->
+                                <p class="mb-6 text-center text-muted">
+                                    Digitalize your housing in minutes.
+                                </p>
+
+                                <!-- Begin Mailchimp Signup Form -->
+                                <div id="mc_embed_signup">
+                                    <form action="/Users/puroha1/Desktop/contracts/web/index.html" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate mb-6" target="_blank" novalidate>
+                                        <div id="mc_embed_signup_scroll">
+
+                                            <div class="form-group">
+                                                <label for="mce-EMAIL" class="sr-only">Your Email</label>
+                                                <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL" placeholder="Your Email">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="mce-FNAME" class="sr-only">Full Name </label>
+                                                <input type="text" value="" name="FNAME" class="required form-control" id="mce-FNAME" placeholder="Full Name">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="mce-MMERGE2" class="sr-only">City</label>
+                                                <input type="text" value="" name="MMERGE2" class="form-control" id="mce-MMERGE2" placeholder="City">
+                                            </div>
+                                            <div id="mce-responses" class="clear">
+                                                <div class="response" id="mce-error-response" style="display:none"></div>
+                                                <div class="response" id="mce-success-response" style="display:none"></div>
+                                            </div>
+                                            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_82bdc603d82a59a4ae57a70bb_59ee071dc0" tabindex="-1" value=""></div>
+                                            <button class="btn btn-block btn-success" type="submit" id="mc-embedded-subscribe">
+                          Upload Properties
+                        </button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <!-- Text -->
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- / .row -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- NAVBAR
+    ================================================== -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+
+            <!-- Brand -->
+            <a class="navbar-brand" href="./index.html">
+          <img src="./assets/img/scent-logo2.png" class="navbar-brand-img" alt="...">
+        </a>
+
+            <!-- Toggler -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+            <!-- Collapse -->
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+
+                <!-- Toggler -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fe fe-x"></i>
+          </button>
+
+                <!-- Navigation -->
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#home" data-toggle="smooth-scroll">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#use-cases" data-toggle="smooth-scroll">Use Cases</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#how-it-works" data-toggle="smooth-scroll">Why Digitalize?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faqs" data-toggle="smooth-scroll">FAQs</a>
+                    </li>
+                </ul>
+
+                <!-- Button -->
+                <a class="navbar-btn btn btn-sm btn-success lift ml-auto" href="#" data-toggle="modal" data-target="#modalSignupHorizontal">
+            Proceed to Wallet
+          </a>
+
+            </div>
+
+        </div>
+    </nav>
+
+
+    <!-- WELCOME
+    ================================================== -->
+    <section class="pt-4 pt-md-11" id="home">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-5 col-lg-6 order-md-2">
+
+                    <!-- Image -->
+                    <img src="assets/img/new-house.jpg" class="img-fluid mw-md-150 mw-lg-130 mb-6 mb-md-0" alt="..." data-aos="fade-up" data-aos-delay="100">
+
+                </div>
+                <div class="col-12 col-md-7 col-lg-6 order-md-1" data-aos="fade-up">
+
+                    <!-- Heading -->
+                    <h1 class="display-3 text-center text-md-left">
+                        Digitalization for <span class="text-success">you</span>
+                    </h1>
+
+                    <!-- Text -->
+                    <p class="lead text-center text-md-left text-muted mb-6 mb-lg-8">
+                        <!-- Smart Contracts + rENT = SCENT -->
+                        <!-- <br><br/> --> With SCENT you can <br> <span class="text-success" data-toggle="typed" data-options='{"strings": ["Invest in Property", "Split the Costs", "Buy a Home"]}'></span>
+                    </p>
+
+                    <!-- Buttons -->
+
+            <div class="dropdown">
+
+                <a class="btn btn-success">
+              Begin <i class="fe fe-arrow-right ml-3"></i>
+            </a>
+                <div class="dropdown-content" >
+                    <a href="#!" data-toggle="modal" data-toggle="smooth-scroll" data-target="#modalSignupInvestor"class="btn btn-success-soft lift">Invest</a>
+                    <a href="#!" data-toggle="modal" data-toggle="smooth-scroll" data-target="#modalSignupUploader" class="btn btn-success-soft lift">Upload</a>
+                </div>
+            </div>
+                    <a href="#use-cases" data-toggle="smooth-scroll" class="btn btn-success-soft lift">
+              How does it work?
+            </a>
+
+                </div>
+            </div>
+            <!-- / .row -->
+        </div>
+        <!-- / .container -->
+    </section>
+
+    <!-- FEATURES
+    ================================================== -->
+    <section class="py-8 py-md-11 border-bottom" id="use-cases">
+        <div class="container">
+            <div class="row mb-3">
+                <div class="col-12 col-md-4" data-aos="fade-up">
+
+                    <!-- Icon -->
+                    <div class="icon text-success mb-3">
+                        <i class="fad fa-calendar-check feature-list-icon"></i>
+                    </div>
+
+                    <!-- Heading -->
+                    <h3>
+                        Assurance
+                    </h3>
+
+                    <!-- Text -->
+                    <p class="text-muted mb-6 mb-md-0">
+                        With SCENT, you can guarantee funds on time, and one person no longer has to be held accountable for late roommates. Make the process easier, and transparent.
+                    </p>
+
+                </div>
+                <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="100">
+
+                    <!-- Icon -->
+                    <div class="icon text-success mb-3">
+                        <i class="fad fa-clipboard-list-check feature-list-icon"></i>
+                    </div>
+
+                    <!-- Heading -->
+                    <h3>
+                        Accessibility
+                    </h3>
+
+                    <!-- Text -->
+                    <p class="text-muted mb-0">
+                        All stakeholders within a transaction will have a streamlined access to the same set of information. Any change will be recorded and have to be approved by all stakeholders, making the smart contract an easier method to record changes and updates.
+                    </p>
+
+                </div>
+                <div class="col-12 col-md-4" data-aos="fade-up">
+
+                    <!-- Icon -->
+                    <div class="icon text-success mb-3">
+                        <i class="fad fa-wallet fa-3x"></i>
+                    </div>
+
+                    <!-- Heading -->
+                    <h3>
+                        Affordability
+                    </h3>
+
+                    <!-- Text -->
+                    <p class="text-muted mb-6 mb-md-0">
+                        With SCENT, people can finally benefit from appreciation rates of houses, allowing those without homes to have a home, through quick and easy solutions.
+                    </p>
+
+                </div>
+            </div>
+            <!-- / .row -->
+            <div class="row mt-5">
+                <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="50">
+
+                    <!-- Icon -->
+                    <div class="icon text-success mb-3">
+                        <i class="fad fa-project-diagram feature-list-icon"></i>
+                    </div>
+
+                    <!-- Heading -->
+                    <h3>
+                        Automation
+                    </h3>
+
+                    <!-- Text -->
+                    <p class="text-muted mb-6 mb-md-0">
+                        With SCENT, one does not have to periodically monitor their expenses. Through the smart contract, funds are automatically transferred, whether this be in monthly installments for rent, or paying the price to purchase the property.
+                    </p>
+
+                </div>
+                <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="100">
+
+                    <!-- Icon -->
+                    <div class="icon text-success mb-3">
+                        <i class="fad fa-bullseye-arrow fa-3x"></i>
+                    </div>
+
+                    <!-- Heading -->
+                    <h3>
+                        Relevance
+                    </h3>
+
+                    <!-- Text -->
+                    <p class="text-muted mb-0">
+                        Thanks to today's constant increase in cost of living, everyone is faced with the problem finding affordable housing. With SCENT, more people have a chance to live in a home, and perhaps even, a home of their choice.
+                    </p>
+
+                </div>
+                <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="50">
+
+                    <!-- Icon -->
+                    <div class="icon text-success mb-3">
+                        <i class="fad fa-user-headset feature-list-icon"></i>
+                    </div>
+
+                    <!-- Heading -->
+                    <h3>
+                        User Friendliness
+                    </h3>
+
+                    <!-- Text -->
+                    <p class="text-muted mb-6 mb-md-0">
+                        Despite the sophisticated technology behind SCENT, we have created a simple user interface that is easy to follow, with the complicated parts abstracted away, thus giving users access to powerful technology at their fingertips.
+                    </p>
+
+                </div>
+            </div>
+            <!-- / .row -->
+        </div>
+        <!-- / .container -->
+    </section>
+
+    <!-- ABOUT
+    ================================================== -->
+    
+
+
+    <!-- STATS
+    ================================================== -->
+    <section class="pt-12 pt-md-13 pb-12 bg-gray-200" id="how-it-works">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-5 col-lg-6 order-md-2">
+
+                    <!-- Image -->
+                    <img src="assets/img/ss1.png" alt="..." class="img-fluid mb-6 mb-md-0">
+
+                </div>
+                <div class="col-12 col-md-7 col-lg-6 order-md-1">
+
+                    <!-- Heading -->
+                    <h2>
+                        Stay focused on your business. <br>
+                        <span class="text-success">Let us handle the boring stuff</span>.
+                    </h2>
+
+                    <!-- Text -->
+                    <p class="font-size-lg text-gray-700 mb-6">
+                        Eliminate Reliance. Give yourself absolute control over your payments with superhuman speed.
+
+                    </p>
+
+                    <!-- Stats -->
+                    <div class="d-flex">
+                        <div class="pr-5">
+                            <h3 class="mb-0">
+                                <span data-toggle="countup" data-from="0" data-to="100" data-aos data-aos-id="countup:in"></span>%
+                            </h3>
+                            <p class="text-gray-700 mb-0">
+                                Satisfaction Guaranteed
+                            </p>
+                        </div>
+                        <div class="border-left border-gray-300"></div>
+                        <div class="px-5">
+                            <h3 class="mb-0">
+                                <span data-toggle="countup" data-from="0" data-to="24" data-aos data-aos-id="countup:in"></span>/
+                                <span data-toggle="countup" data-from="0" data-to="7" data-aos data-aos-id="countup:in"></span>
+                            </h3>
+                            <p class="text-gray-700 mb-0">
+                                Support
+                            </p>
+                        </div>
+                        <div class="border-left border-gray-300"></div>
+                        <div class="pl-5">
+                            <h3 class="mb-0">
+                                <span data-toggle="countdown" data-from="100" data-to="15" data-aos data-aos-id="countup:in"></span>s
+                            </h3>
+                            <p class="text-gray-700 mb-0">
+                                Transaction Speed
+                            </p>
+                        </div>
+                    </div>
+                    <div class="text-center mt-5">
+                        <a class="navbar-btn btn btn-sm btn-success btn-block lift ml-auto" href="#" data-toggle="modal" data-target="#modalSignupHorizontal">
+                Proceed to Wallet
+              </a>
+                    </div>
+                </div>
+            </div>
+            <!-- / .row -->
+        </div>
+        <!-- / .container -->
+    </section>
+    <!-- SHAPE
+    ================================================== -->
+    <div class="position-relative">
+        <div class="shape shape-bottom shape-fluid-x svg-shim text-dark">
+            <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"/>
+        </svg>
+        </div>
+    </div>
+    <!-- FAQ
+    ================================================== -->
+    <section class="bg-dark">
+        <div class="container pt-8 pt-md-11" id="faqs">
+            <div class="row">
+                <div class="col-12 col-md-6">
+
+                    <!-- Item -->
+                    <div class="d-flex">
+
+                        <!-- Badge -->
+                        <div class="badge badge-lg badge-rounded-circle badge-success">
+                            <span>?</span>
+                        </div>
+
+                        <div class="ml-5">
+
+                            <!-- Heading -->
+                            <h4 class="text-white">
+                                What is SCENT?
+                            </h4>
+
+                            <!-- Text -->
+                            <p class="text-muted mb-6 mb-md-8">
+                                SCENT is an amalgamation of Smart Contracts run through a blockchain. SCENT helps to facilitate and digitalize the process of buying and investing in property among multiple title ownership.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Item -->
+                    <div class="d-flex">
+
+                        <!-- Badge -->
+                        <div class="badge badge-lg badge-rounded-circle badge-success">
+                            <span>?</span>
+                        </div>
+
+                        <div class="ml-5">
+
+                            <!-- Heading -->
+                            <h4 class="text-white">
+                                What problem does SCENT solve?
+                            </h4>
+
+                            <!-- Text -->
+                            <p class="text-muted mb-6 mb-md-0">
+                                SCENT helps combat the problem of the lack of affordable housing. Many properties are simply too expensive for a single household income to be able to afford. With the help of SCENT's infrastructure, one can join forces with others to invest in shares of property in order to ease the process of buying property.  
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-6">
+
+                    <!-- Item -->
+                    <div class="d-flex">
+
+                        <!-- Badge -->
+                        <div class="badge badge-lg badge-rounded-circle badge-success">
+                            <span>?</span>
+                        </div>
+
+                        <div class="ml-5">
+
+                            <!-- Heading -->
+                            <h4 class="text-white">
+                                How can I get more info?
+                            </h4>
+
+                            <!-- Text -->
+                            <p class="text-muted mb-6 mb-md-8">
+                                Request a <a href="#" data-toggle="modal" data-target="#modalSignupHorizontal" style="color: white;">demo</a> and our team will be in touch with you immediately.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Item -->
+                    <div class="d-flex">
+
+                        <!-- Badge -->
+                        <div class="badge badge-lg badge-rounded-circle badge-success">
+                            <span>?</span>
+                        </div>
+
+                        <div class="ml-5">
+
+                            <!-- Heading -->
+                            <h4 class="text-white">
+                                Does I need to understand cryptocurrency/blockchain to use SCENT?
+                            </h4>
+
+                            <!-- Text -->
+                            <p class="text-muted mb-6 mb-md-0">
+                                No. SCENT integrates a simpler UI that works better for the consumers instead of advertising blockchain. All the complexities of the backend blockchain are abstracted away and handled by the software.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <!-- / .row -->
+        </div>
+        <!-- / .container -->
+    </section>
+
+
+
+    <!-- CTA
+    ================================================== -->
+    <section class="py-8 py-md-11 bg-dark">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10 col-lg-8 text-center">
+
+                    <!-- Badge -->
+                    <span class="badge badge-pill badge-gray-700-soft mb-4">
+              <span class="h6 font-weight-bold text-uppercase">Get started</span>
+                    </span>
+
+                    <!-- Heading -->
+                    <h1 class="display-4 text-white">
+                        Get started with SCENT today!
+                    </h1>
+
+                    <!-- Text -->
+                    <p class="font-size-lg text-muted mb-6 mb-md-8">
+
+                    </p>
+
+                    <!-- Button -->
+                    <a href="#" target="_blank" class="btn btn-success lift" data-toggle="modal" data-target="#modalSignupHorizontal">
+              Proceed to Wallet <i class="fe fe-arrow-right"></i>
+            </a>
+
+                </div>
+            </div>
+            <!-- / .row -->
+        </div>
+        <!-- / .container -->
+    </section>
+
+    <!-- SHAPE
+    ================================================== -->
+    <div class="position-relative">
+        <div class="shape shape-bottom shape-fluid-x svg-shim text-gray-200">
+            <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"/>
+        </svg>
+        </div>
+    </div>
+
+    <!-- FOOTER
+    ================================================== -->
+    <footer class="py-8 py-md-11 bg-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 col-lg-3">
+
+                    <!-- Brand -->
+                    <img src="./assets/img/scent-logo2.png" alt="..." class="footer-brand img-fluid mb-2 w-75">
+
+                    <!-- Text -->
+                    <p class="text-gray-700 mb-2">
+                        Digitalization for all
+                    </p>
+
+                </div>
+            </div>
+            <!-- / .row -->
+        </div>
+        <!-- / .container -->
+    </footer>
+
+
+    <!-- JAVASCRIPT
+    ================================================== -->
+    <!-- Libs JS -->
+    <script src="./assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="./assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/libs/flickity/dist/flickity.pkgd.min.js"></script>
+    <script src="./assets/libs/flickity-fade/flickity-fade.js"></script>
+    <script src="./assets/libs/aos/dist/aos.js"></script>
+    <script src="./assets/libs/smooth-scroll/dist/smooth-scroll.min.js"></script>
+    <script src="./assets/libs/jarallax/dist/jarallax.min.js"></script>
+    <script src="./assets/libs/jarallax/dist/jarallax-video.min.js"></script>
+    <script src="./assets/libs/jarallax/dist/jarallax-element.min.js"></script>
+    <script src="./assets/libs/typed.js/lib/typed.min.js"></script>
+    <script src="./assets/libs/countup.js/dist/countUp.min.js"></script>
+    <script src="./assets/libs/highlightjs/highlight.pack.min.js"></script>
+    <script src="./assets/libs/@fancyapps/fancybox/dist/jquery.fancybox.min.js"></script>
+
+    <!-- Map -->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
+
+    <!-- Theme JS -->
+    <script src="./assets/js/theme.min.js"></script>
+
+</body>
+
+</html>
